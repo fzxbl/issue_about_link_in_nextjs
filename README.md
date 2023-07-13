@@ -1,6 +1,14 @@
-This is a [Next.js](https://nextjs.org/) template to use when reporting a [bug in the Next.js repository](https://github.com/vercel/next.js/issues) with the `app/` directory.
+## Abstract
+
+- The only difference between `new_version_link` and `old_version_link` is the 55th line in `layout.tsx`(new_version_link or old_version_link)
+- the 55th line at `layout.tsx` in `new_version_link` is `<Link href={ref}>`
+- the 55th line at `layout.tsx` in `old_version_link` is `<Link href={ref} legacyBehavior>`
+
+But There is an obvious visual difference on the client side between new_version_link and old_version_link
 
 ## Getting Started
+
+This is a [Next.js](https://nextjs.org/) template to use when reporting a [bug in the Next.js repository](https://github.com/vercel/next.js/issues) with the `app/` directory.
 
 These are the steps you should follow when creating a bug report:
 
